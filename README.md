@@ -14,9 +14,8 @@ Summary: Static code compilation of a 'shiny' app given an R function (into 'ui.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-autoshiny-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-autoshiny-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-autoshiny-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-autoshiny-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-autoshiny-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-autoshiny-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-autoshiny-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-autoshiny-feedstock)
 
 Current release info
 ====================
