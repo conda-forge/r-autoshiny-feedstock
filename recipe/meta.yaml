@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: autoshiny_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/autoshiny_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/autoshiny/autoshiny_{{ version }}.tar.gz
@@ -37,7 +36,7 @@ test:
 
 about:
   home: https://github.com/alekrutkowski/autoshiny
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Static code compilation of a 'shiny' app given an R function (into 'ui.R' and 'server.R'
     files or into a 'shiny' app object). See examples at <https://github.com/alekrutkowski/autoshiny>.
   license_family: GPL2
@@ -46,9 +45,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
