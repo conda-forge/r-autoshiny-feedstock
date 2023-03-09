@@ -1,11 +1,11 @@
-About r-autoshiny
-=================
+About r-autoshiny-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-autoshiny-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/alekrutkowski/autoshiny
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-autoshiny-feedstock/blob/main/LICENSE.txt)
 
 Summary: Static code compilation of a 'shiny' app given an R function (into 'ui.R' and 'server.R' files or into a 'shiny' app object). See examples at <https://github.com/alekrutkowski/autoshiny>.
 
